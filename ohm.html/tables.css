@@ -1,0 +1,26 @@
+#column{
+    column-count: 2;
+    column-gap: 5em;
+}
+#width{
+    column-width: 50;
+}
+ol[type="b"]{
+   
+    background-color: violet;
+}
+ol[type="a"]{
+   
+    background-color: darkgoldenrod;
+}
+.box {
+  display: flex;
+    background-color:bisque;
+}
+.box>div{
+background-color: aliceblue;
+width: 100px;
+margin: 10px;
+margin-right: 100px;
+text-align: center;
+}

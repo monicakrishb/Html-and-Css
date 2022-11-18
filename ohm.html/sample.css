@@ -1,0 +1,29 @@
+p{
+    color:blueviolet
+}
+.moni{
+    background-color: bisque;
+    border: 2px solid;
+}
+.box
+{
+    flex-grow: 1;
+    border: 3px solid;
+}
+#content {
+    display: flex;
+}
+details{
+    border: 3px solid;
+    border-radius: 10px;
+}
+summary{
+    margin: 10 em;
+    padding: 2px;
+
+}
+details[open] summary{
+    border-bottom: 3px solid black;
+
+    
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage</title>
+</head>
+<body>
+    <nav>Instagram</nav>
+    <span id="sessionstorageLog"></span>
+    <div>
+        Enter Username <input type="text" id="sessionstoragename">
+    </div>
+    <button id="Login">sessionsave</button>
+    <button id="Logout">sessiondelete</button>
+   <script>
+    var  sessionstoragename=document.getElementById("sessionstoragename");
+    var  sessionstorageLog=document.getElementById("sessionstorageLog");
+    var  Login=document.getElementById("Login");
+    var  Logout=document.getElementById("Logout");
+    Login.onclick=function(){
+        sessionStorage.setItem("name",sessionstoragename.value);
+    }
+    Logout.onclick=function(){
+        sessionStorage.clear();
+    }
+   </script>
+</body>
+</html>
